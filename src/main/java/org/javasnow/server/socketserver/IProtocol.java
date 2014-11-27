@@ -7,7 +7,9 @@ import org.apache.mina.transport.socket.SocketConnector;
  * 网络通讯协议接口
  * 
  * @author cheney
- * @time 2014.11.25
+ * @date Nov 27, 2014
+ * @time 4:35:58 PM
+ * @Version 1.0.0
  */
 public interface IProtocol {
 	/**

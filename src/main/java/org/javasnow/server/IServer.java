@@ -4,10 +4,11 @@ import java.net.InetSocketAddress;
 import java.util.Iterator;
 
 /**
- * 监听服务接口
  * 
  * @author cheney
- * @time 2014.11.25
+ * @date Nov 27, 2014
+ * @time 4:37:27 PM
+ * @Version 1.0.0
  */
 public interface IServer {
 

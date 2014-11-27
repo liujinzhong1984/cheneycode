@@ -4,10 +4,12 @@ import java.net.InetSocketAddress;
 import java.util.Iterator;
 
 /**
- * 监听端口设置
+ * 网络信息
  * 
  * @author cheney
- * @time 2014.11.25
+ * @date Nov 27, 2014
+ * @time 4:36:11 PM
+ * @Version 1.0.0
  */
 public class MinaConfig implements Iterable<InetSocketAddress> {
 	private final int[] port;

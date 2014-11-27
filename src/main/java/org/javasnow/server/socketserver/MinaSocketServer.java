@@ -12,7 +12,9 @@ import org.javasnow.server.AbstractSocket;
  * 网络通讯服务端
  * 
  * @author cheney
- * @time 2014.11.25
+ * @date Nov 27, 2014
+ * @time 4:36:35 PM
+ * @Version 1.0.0
  */
 public class MinaSocketServer extends AbstractSocket {
 	private IoAcceptor acceptor = null;

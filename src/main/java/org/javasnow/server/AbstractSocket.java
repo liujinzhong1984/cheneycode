@@ -8,7 +8,9 @@ import org.javasnow.server.socketserver.MinaConfig;
 /**
  * 
  * @author cheney
- * @time 2014.11.26
+ * @date Nov 27, 2014
+ * @time 4:37:07 PM
+ * @Version 1.0.0
  */
 public abstract class AbstractSocket implements IServer {
 	private final MinaConfig minaConfig;
