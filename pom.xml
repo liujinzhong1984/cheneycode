@@ -77,5 +77,10 @@
 			<artifactId>lucene-core</artifactId>
 			<version>4.10.0</version>
 		</dependency>
+		<dependency>
+			<groupId>com.caucho</groupId>
+			<artifactId>hessian</artifactId>
+			<version>4.0.7</version>
+		</dependency>
 	</dependencies>
 </project>
