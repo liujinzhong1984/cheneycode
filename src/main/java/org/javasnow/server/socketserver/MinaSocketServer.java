@@ -6,6 +6,7 @@ import org.apache.mina.filter.logging.LogLevel;
 import org.apache.mina.filter.logging.LoggingFilter;
 import org.apache.mina.transport.socket.SocketSessionConfig;
 import org.apache.mina.transport.socket.nio.NioSocketAcceptor;
+import org.javasnow.server.AbstractSocket;
 
 /**
  * 网络通讯服务端
@@ -13,7 +14,7 @@ import org.apache.mina.transport.socket.nio.NioSocketAcceptor;
  * @author cheney
  * @time 2014.11.25
  */
-public class MinaSocketServer extends AbstractMinaSocket {
+public class MinaSocketServer extends AbstractSocket {
 	private IoAcceptor acceptor = null;
 	private IoHandler handler = null;
 	private IProtocol protocol = null;

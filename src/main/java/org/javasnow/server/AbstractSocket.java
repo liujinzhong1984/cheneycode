@@ -1,19 +1,19 @@
-package org.javasnow.server.socketserver;
+package org.javasnow.server;
 
 import java.net.InetSocketAddress;
 import java.util.Iterator;
 
-import org.javasnow.server.IServer;
+import org.javasnow.server.socketserver.MinaConfig;
 
 /**
  * 
  * @author cheney
  * @time 2014.11.26
  */
-public abstract class AbstractMinaSocket implements IServer {
+public abstract class AbstractSocket implements IServer {
 	private final MinaConfig minaConfig;
 
-	public AbstractMinaSocket(MinaConfig config) {
+	public AbstractSocket(MinaConfig config) {
 		this.minaConfig = config;
 	}
 
