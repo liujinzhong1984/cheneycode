@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<!-- 帐户信息相关 -->
+	<servlet>
+		<servlet-name>account</servlet-name>
+		<servlet-class>com.caucho.hessian.servlet.HessianServlet</servlet-class>
+		<init-param>
+			<!-- service-class也可以写为home-class -->
+			<param-name>service-class</param-name>
+			<!-- 服务器接口实现,供客户端调用 -->
+			<param-value>org.javasnow.service.hts.sc.baseinit.impl.AccountService</param-value>
+		</init-param>
+		<init-param>
+			
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>account</servlet-name>
+		<url-pattern>/account</url-pattern>
+	</servlet-mapping>
+</web-app>
