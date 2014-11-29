@@ -1,6 +1,9 @@
 package org.javasnow.service;
 
+import org.json.JSONObject;
+
 /**
+ * 公共接口
  * 
  * @author cheney
  * @date Nov 27, 2014
@@ -8,9 +11,19 @@ package org.javasnow.service;
  * @Version 1.0.0
  */
 public interface IService {
-	public LoginUser getLoginUserByLoginName();
 
-	public LoginUser getLoginUserByUserPhone();
+	/**
+	 * 动作审计
+	 * 
+	 * @param json
+	 * @return
+	 */
+	public boolean actionAudit(JSONObject json);
 
-	public LoginUser getLoginUserByUserEmail();
+	/**
+	 * 记录数
+	 * 
+	 * @return
+	 */
+	public int getTotalRow();
 }
